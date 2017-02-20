@@ -1,4 +1,4 @@
-# Learn Python the Hard Way (3rd Edition)
+# **Learn Python the Hard Way (3rd Edition)**
 ## Zed Shaw
 
 This simple book is meant to give you a first start in programming.
