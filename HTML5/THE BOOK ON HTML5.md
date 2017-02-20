@@ -33,7 +33,7 @@ There are features like:
 
 ---
 
-->**TABLE OF CONTENT**<-
+**TABLE OF CONTENT**
 
 1. **Getting Started**
    * _Welcome to the exciting world of the HTML5 web. This chapter introduces HTML5 and
