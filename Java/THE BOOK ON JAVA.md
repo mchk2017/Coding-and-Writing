@@ -1,7 +1,10 @@
 # **Java Foundations (Second Edition)**
 ## John Lewis, Peter DePasquale & Joseph Chase
 
-**Chapter 1 (Introduction)** introduces the Java programming language and the
+```html
+CHAPTER 1 (INTRODUCTION)
+```
+introduces the Java programming language and the
 basics of program development. It contains an introduction to object-oriented
 development, including an overview of concepts and terminology. This chapter
 contains broad introductory material that can be covered while students become
@@ -85,8 +88,10 @@ works. Java comments come in three forms:
 
  
 
-
-**Chapter 2 (Data and Expressions)** explores some of the basic types of data used
+```html
+CHAPTER 2 (DATA AND EXPRESSIONS)
+```
+explores some of the basic types of data used
 in a Java program and the use of expressions to perform calculations. It discusses
 the conversion of data from one type to another, and how to read input interac-
 tively from the user with the help of the Scanner class.
@@ -107,7 +112,10 @@ form calculations. It discusses the conversion of data from
 one type to another, and how to read input interactively
 from the user running a program.
 
-**Chapter 3 (Using Classes and Objects)** explores the use of predefined classes
+```html
+CHAPTER 3 (USING CLASSES AND OBJECTS)
+```
+explores the use of predefined classes
 and the objects that can be created from them. Classes and objects are used to
 manipulate character strings, produce random numbers, perform complex calcu-
 lations, and format output. Packages, enumerated types, and wrapper classes are
@@ -136,7 +144,10 @@ format output. This chapter also introduces the concept of
 an enumerated type, which is a special kind of class in
 Java, and discusses the concept of a wrapper class.
 
-**Chapter 4 (Conditionals and Loops)** covers the use of boolean expressions to
+```html
+CHAPTER 4 (CONDITIONALS AND LOOPS)
+```
+covers the use of boolean expressions to
 make decisions. All related statements for conditionals and loops are discussed,
 including the enhanced version of the for loop. The Scanner class is revisited
 for iterative input parsing and reading text files.
@@ -162,7 +173,10 @@ ments, as well as exploring some issues related to comparing
 data and objects. We begin with a discussion of boolean
 expressions, which form the basis of any decision.
 
-**Chapter 5 (Writing Classes)** explores the basic issues related to writing classes
+```html
+CHAPTER 5 (WRITING CLASSES)
+```
+explores the basic issues related to writing classes
 and methods. Topics include instance data, visibility, scope, method parameters,
 and return types. Constructors, method design, static data, and method overload-
 ing are covered as well. Testing and debugging are now covered in this chapter as
@@ -192,7 +206,10 @@ sics of class definitions, including the structure of methods
 and the scope and encapsulation of data. It also examines the
 creation of static class members and overloaded methods.
 
-**Chapter 6 (Graphical User Interfaces)** is a thorough exploration of Java GUI
+```html
+CHAPTER 6 (GRAPHICAL USER INTERFACES)
+```
+is a thorough exploration of Java GUI
 processing, focusing on components, events, and listeners. Many types of compo-
 nents and events are discussed using numerous GUI examples. Additionally, lay-
 out mangers, containment hierarchies, borders, tooltips, and mnemonics are
@@ -222,7 +239,10 @@ experience for the user compared to a simple text-based,
 command-line environment. This chapter explores the
 various issues related to developing a GUI in Java.
 
-**Chapter 7 (Arrays)** contains extensive coverage of arrays and array processing.
+```html
+CHAPTER 7 (ARRAYS)
+```
+contains extensive coverage of arrays and array processing.
 Topics include bounds checking, initializer lists, command-line arguments, variable-
 length parameter lists, and multidimensional arrays.
 
@@ -243,7 +263,10 @@ ming constructs that group data into lists. Arrays are a fun-
 damental component of most high-level languages, and a
 useful tool in creating problem solutions.
 
-**Chapter 8 (Inheritance)** covers class derivations and associated concepts such
+```html
+CHAPTER 8 (INHERITANCE)
+```
+covers class derivations and associated concepts such
 as class hierarchies, overriding, and visibility. Strong emphasis is put on the proper
 use of inheritance and its role in software design.
 
@@ -266,7 +289,10 @@ an inherited method. We examine the protected modifier
 and discuss the effect all visibility modifiers have on inher-
 ited attributes and methods.
 
-**Chapter 9 (Polymorphism)** explores the concept of binding and how it relates
+```html
+CHAPTER 9 (POLYMORPHISM)
+```
+explores the concept of binding and how it relates
 to polymorphism. Then we examine how polymorphic references can be accom-
 plished using either inheritance or interfaces. Design issues related to polymor-
 phism are examined as well.
@@ -291,7 +317,10 @@ and bringing the polymorphism discussion full circle. The
 chapter concludes with a discussion of the design issues
 related to polymorphism.
 
-**Chapter 10 (Exceptions)** covers exception handling and the effects of
+```html
+CHAPTER 10 (EXCEPTIONS)
+```
+covers exception handling and the effects of
 uncaught exceptions. The try-catch statement is examined, as well as a dis-
 cussion of exception propagation. The chapter also explores the use of excep-
 tions when dealing with input and output, and examines an example that writes
@@ -316,7 +345,10 @@ fine our own exception objects. This chapter also discusses
 the use of exceptions when dealing with input and output,
 and presents an example that writes a text file.
 
-**Chapter 11 (Recursion)** covers the concept, implementation, and proper use of
+```html
+CHAPTER 11 (RECURSION)
+```
+covers the concept, implementation, and proper use of
 recursion. Several examples are used to elaborate on the discussion, including a
 maze traversal and the classic Towers of Hanoi problem.
 
@@ -334,7 +366,10 @@ provides an introduction to recursive processing. It contains
 an explanation of the basic concepts underlying recursion
 and then explores the use of recursion in programming.
 
-**Chapter 12 (Analysis of Algorithms)** discusses the techniques for analyzing the
+```html
+CHAPTER 12 (ANALYSIS OF ALGORITHMS)
+```
+discusses the techniques for analyzing the
 complexity of algorithms, including recursive algorithms. Big Oh notation is
 introduced.
 
@@ -353,7 +388,10 @@ is generally preferred. As we explore topics such as sorting
 and data structures in later chapters, the ability to analyze
 the efficiency of our implementations becomes crucial.
 
-**Chapter 13 (Searching and Sorting)** explores the linear and binary searching
+```html
+CHAPTER 13 (SEARCHING AND SORTING)
+```
+explores the linear and binary searching
 algorithms, as well as five sorting algorithms. The sorts include both quadratic
 and O(N log N) algorithms. The efficiency of these algorithms is examined.
 
@@ -370,7 +408,10 @@ are a variety of algorithms that can be used to accomplish
 these tasks, and the differences between them are worth ex-
 ploring carefully.
 
-**Chapter 14 (Stacks)** introduces the concept of a collection and establishes the
+```html
+CHAPTER 14 (STACKS)
+```
+introduces the concept of a collection and establishes the
 importance of separating the interface from the implementation. Stacks are used
 as the initial example of a collection, and both dynamic and fixed implementa-
 tions of a stack are explored. Generic types are introduced in this chapter, detail-
@@ -400,7 +441,10 @@ particular, this chapter introduces a collection called a stack
 and uses it to exemplify the issues related to the design, im-
 plementation, and use of collections.
 
-**Chapter 15 (Queues)** introduces FIFO queues and discusses options for their
+```html
+CHAPTER 15 (QUEUES)
+```
+introduces FIFO queues and discusses options for their
 implementation. As with stacks, a queue is explored first conceptually, then as
 tools to help us solve problems, and finally by examining their underlying data
 structures. Both array-based and dynamic link implementations are discussed.
@@ -423,7 +467,10 @@ cars waiting at a stoplight. In any queue, an item enters on
 one end and leaves from the other. Queues have a variety of
 uses in computer algorithms.
 
-**Chapter 16 (Trees)** introduces the terms and concepts behind trees. Various
+```html
+CHAPTER 16 (TREES)
+```
+introduces the terms and concepts behind trees. Various
 implementation strategies are discussed, and a recursive, linked approach is exam-
 ined in detail. An example of a binary decision tree is explored as well.
 
@@ -443,7 +490,10 @@ at examples of implementing and using trees. Based on this
 core material, Chapter 17 continues the exploration
 of trees.
 
-**Chapter 17 (Binary Search Trees)** covers the concept of search trees and a
+```html
+CHAPTER 17 (BINARY SEARCH TREES)
+```
+covers the concept of search trees and a
 linked implementation for a classic binary search tree. Tree rotation algorithms
 are also discussed.
 
@@ -460,7 +510,10 @@ implementation. We examine algorithms for adding and
 removing elements from binary search trees and for main-
 taining balanced trees.
 
-**Chapter 18 (Heaps and Priority Queues)** discusses the concept of a heap and
+```html
+CHAPTER 18 (HEAPS AND PRIORITY QUEUES)
+```
+discusses the concept of a heap and
 its relationship to trees. A full linked implementation of a heap is explored.
 Priority queues are used as an example of a collection in its own right, and the
 natural relationship between heaps and priority queues are explored.
@@ -481,7 +534,10 @@ another extension of binary trees, and their implementation.
 Heaps are classic data structures, and are often used to im-
 plement priority queues.
 
-**Chapter 19 (Graphs)** discusses both directed and undirected graphs.
+```html
+CHAPTER 19 (GRAPHS)
+```
+discusses both directed and undirected graphs.
 Additionally, weighted graphs are explored, and the differences between breadth-
 first and depth-first graph traversals are covered. Minimal spanning trees are
 introduced, and implementation strategies are discussed.
@@ -502,7 +558,10 @@ and graph theory is an entire subdiscipline of both mathe-
 matics and computer science. In this chapter we introduce
 the basic concepts of graphs and their implementation.
 
-**Chapter 20 (Hashing)** covers the concept of creating a hash table to facilitate
+```html
+CHAPTER 20 (HASHING)
+```
+covers the concept of creating a hash table to facilitate
 storage and retrieval of objects. Various classes that relate to hashing from the
 Java API are explored.
 
@@ -518,7 +577,10 @@ map. In this chapter, we examine hashing, an approach to
 implementing a set or map collection that can be even more
 efficient than binary search trees.
 
-**Chapter 21 (Databases)** explores the concept of databases and their manage-
+```html
+CHAPTER 21 (DATABASES)
+```
+explores the concept of databases and their manage-
 ment, and discusses the basics of SQL queries. It then explores the techniques for
 establishing a connection between a Java program and a database, and the API
 used to interact with it.
