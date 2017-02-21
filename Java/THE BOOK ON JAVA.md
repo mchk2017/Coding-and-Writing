@@ -1,8 +1,8 @@
 # **Java Foundations (Second Edition)**
 ## John Lewis, Peter DePasquale & Joseph Chase
-
-->**TABLE OF CONTENT**<-
-
+---
+###TABLE OF CONTENT###
+---
 ```html
 CHAPTER 1 INTRODUCTION
 ```
