@@ -24,6 +24,9 @@ exploring the foundations of problem solving, the activities
 involved in software development, and the principles of
 object-oriented programming.
 
+Abraham Lincoln:
+> Whatever you are, be a good one.
+
 **Chapter 2 (Data and Expressions)** explores some of the basic types of data used
 in a Java program and the use of expressions to perform calculations. It discusses
 the conversion of data from one type to another, and how to read input interac-
