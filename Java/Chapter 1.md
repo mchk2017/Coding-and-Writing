@@ -61,3 +61,69 @@ works. Java comments come in three forms:
    symbol, even across line breaks */
 /** this is a javadoc comment */
 ```
+
+**Identifiers**<br>
+
+* The words a programmer uses in a program are called _identifiers_
+* An identifier can be made up letters, digits, the underscore character (\_)
+and the dollar sign
+* An identifier cannot begin with a digit
+* Java is _case sensitive_. So `Total`, `total` and `TOTAL` are three different identifiers
+* By convention, programmers take advantage of different case styles for different types of
+identifiers, e.g. 
+  * _title case_ for class names - `Lincoln`
+  * _upper case_ for constants - `MAXIMUM`
+* Sometimes we choose identifiers ourselves when writing a program (such as
+`Lincoln`). Sometimes when we use another programmer's code, we need to use
+the identifiers that he or she chose (such as `println`). Often we use special
+identifiers called _reserved words_ that already have a predefined meaning in
+the programming language. A reserved word cannot be used in any other way.
+
+**Java reserved words:**
+
+ A - C       | D - F       | G - N       | P -  S      | T - W 
+-------------|-------------|-------------|-------------|-------------
+abstract     | default     | goto*       | package     | this
+assert       | do          | if          | private     | throw 
+boolean      | double      | implements  | protected   | throws
+break        | else        | import      | public      | transient 
+byte         | enum        | instanceof  | return      | true 
+case         | extends     | int         | short       | try
+catch        | false       | interface   | static      | void 
+char         | final       | long        | strictfp    | volatile 
+class        | finally     | native      | super       | while
+const*       | float       | new         | switch      | 
+continue     | for         | null        | synchronized|
+
+**White space**<br>
+
+* Spaces, blank lines, and tabs are called _white space_
+* White space is used to separate words and symbols in a program
+* Extra white space is ignored
+
+**Program formatting**<br>
+A valid Java program can be formatted many ways. At any rate, programs should
+be formatted to enhance readability (e.g. using consistent indentation).
+
+**What is the mechanics of developing a program?**<br>
+This involves several activities:
+
+  * writing the program in a specific programming language (such as Java)
+  * translating the program into a form executable by the computer
+  * investigating and fixing various types of errors that can occur
+
+Software tools can be used to help with all parts of this process.
+
+**Language levels**<br>
+
+* There are four programming language levels:
+  * machine language (e.g. for x86 processors)
+  * assembly language (e.g. for x86 processors)
+  * high-level language (e.g. Java)
+  * fourth-generation language (e.g. SQL)
+* Each type of CPU has its own specific *machine language*
+* The other levels were created to make it easier for a human being
+to read and write programs
+
+A high-level expression and its lower level equivalents
+![Language Levels](./images/Language Levels.jpg)
