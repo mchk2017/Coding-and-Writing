@@ -65,7 +65,7 @@ works. Java comments come in three forms:
 **Identifiers**<br>
 
 * The words a programmer uses in a program are called _identifiers_
-* An identifier can be made up letters, digits, the underscore character (\_)
+* An identifier can be made up of letters, digits, the underscore character (\_)
 and the dollar sign
 * An identifier cannot begin with a digit
 * Java is _case sensitive_. So `Total`, `total` and `TOTAL` are three different identifiers
@@ -126,4 +126,4 @@ Software tools can be used to help with all parts of this process.
 to read and write programs
 
 A high-level expression and its lower level equivalents
-![Language Levels](./images/Language Levels.jpg)
+![image](images/Language_Levels.jpg)
