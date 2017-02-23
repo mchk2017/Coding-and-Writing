@@ -4,7 +4,7 @@
 **JavaScript in easy steps**, now in its 5th edition, illustrates how to create exciting
 web pages that employ the power of JavaScript to provide functionality.
 
-Starting with how to incorporate JavaScript code in an HTML document, color-coded examples
+Starting with how to incorporate JavaScript code in an HTML document, example codes
 illustrate how to use built-in JavaScript functions to work with Math, date and time, random 
 numbers, cookies, text strings, and create effects such as an automated slide show. Learn how
 JavaScript is used with HTML submission forms and how to develop Rich Internet Applications
