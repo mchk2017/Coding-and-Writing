@@ -225,19 +225,19 @@ dissected into pieces called objects and classes.
 **Basic development activities**<br>
 Any proper software development effort consists of four basic <a id="34">_development activities_</a>:
 
-- establishing the requirements for solving a problem
+- establishing the requirements (i.e. list the requirements and then describe them in detail)
 - creating a design
 - implement the design
 - testing the implementation
 
 These steps are not linear and may often overlap and interact
 
-* <a id="35">_Software requirements_</a> specify what a program must accomplish
-* <a id="36">_Functional specification_</a> documents the expression of these requirements
-* A <a id="37">_software design_</a> indicates how a program will accomplish its requirements
-* <a id="38">_Implementation_</a> is the process of writing the source code that will solve the problem
+* <a id="35">_Software requirements_</a> specify what a program must accomplish 要求規格
+* <a id="36">_Functional specification_</a> documents the expression of these requirements 具體說明
+* A <a id="37">_software design_</a> indicates how a program will accomplish its requirements 設計
+* <a id="38">_Implementation_</a> is the process of writing the source code that will solve the problem 付諸行動
 * <a id="39">_Testing_</a> is the act of ensuring that a program will work as intended given all the
-constraints under which it must perform 
+constraints under which it must perform 測試
 
 ## <a id="Ch01_05">OVERVIEW OF OBJECT-ORIENTED PRINCIPLES</a> ##
 
