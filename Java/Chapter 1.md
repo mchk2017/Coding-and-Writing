@@ -109,7 +109,7 @@ be formatted to enhance readability (e.g. using consistent indentation).
 
 ## PROGRAM COMPILATION AND EXECUTION ##
 
-** Basic programming steps **<br>
+**Basic programming steps**<br>
 A program is written in an editor, compiled into an executable form, and then executed.
 If errors occur during compilation, an executable form is not created.
 
@@ -134,7 +134,7 @@ Each type of CPU has its own specific *machine language*. The other levels were 
 to read and write programs
 
 A high-level expression and its lower level equivalents
-![image1_1](images/Language_Levels.jpg)
+![image1_1](images/LanguageLevels.JPG)
 
 **Compilation and Java's approach**<br>
 A compiler is a software tool which translates *source code* into a specific target
@@ -146,7 +146,7 @@ machine language for any traditional CPU. Another software tool, called *interpr
 translates bytecode into machine language and executes it. Therefore the Java compiler is
 not tied to any particular machine/CPU. Java is considered to be *architecture-neutral*.
 
-![image1_2](images/Java_Translation.jpg)
+![image1_2](images/JavaTranslation.JPG)
 
 **Environments for program development**<br>
 A *development environment* is the set of tools used to create, test, and modify a 
@@ -170,7 +170,7 @@ The *syntax* defines how identifiers, reserved words, and symbols can be
 put together to make a valid program. The *semantics* of a program statement defines 
 what that statement means (i.e. its purpose or role in a program). A program that is
 syntactically correct is not necessarily semantically/logically correct. A program will
-always do what we tell it to do, not what we <u>meant</u> to tell it to do.
+always do what we tell it to do, not what we `meant` to tell it to do.
 
 **Errors that can occur in a program**<br>
 There are three types of errors:
@@ -252,7 +252,7 @@ can be organized into hierachies.
 
 An object is _encapsulated_, protecting the data it manages.
 
-![image1_3](./images/Classes_and_Objects.jpg)
+![image1_3](./images/ClassesAndObjects.JPG)
 
 
 
