@@ -227,7 +227,7 @@ constraints under which it must perform
 Java is an *object-oriented* programming language. An object is a fundamental entity
 in a Java program. Objects can be used effectively to represent real-world entities.
 For instance, an object might represent a particular employee in a company. Each
-employee object handles the processing and data management related to theat employee.
+employee object handles the processing and data management related to that employee.
 
 **Objects**<br>
 An __object__ has _state_ (descriptive characteristics) and _behaviours_ (what it can do).
