@@ -13,13 +13,13 @@ contains broad introductory material that can be covered while students become
 familiar with their development environment.
 
 * Chapter Objectives
-  * Introduce the Java programming language.
-  * Describe the steps involved in program compilation
-and execution.
-  * Explore the issues related to problem solving in general.
-  * Discuss the activities involved in the software development
-process.
-  * Present an overview of object-oriented principles.
+  * [Introduce the Java programming language.](./Chapter 1.md#Ch01_01)
+  * [Describe the steps involved in program compilation
+and execution.](./Chapter 1.md#Ch01_02)
+  * [Explore the issues related to problem solving in general.](./Chapter 1.md#Ch01_03)
+  * [Discuss the activities involved in the software development
+process.](./Chapter 1.md#Ch01_04)
+  * [Present an overview of object-oriented principles.](./Chapter 1.md#Ch01_05)
 
 This book is about writing well-designed software. We
 begin by examining a very basic Java program and using it

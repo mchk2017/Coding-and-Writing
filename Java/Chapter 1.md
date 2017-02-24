@@ -27,7 +27,7 @@ Abraham Lincoln:
 
 > Whatever you are, be a good one.
 
-## INTRODUCE THE JAVA PROGRAMMING LANGUAGE ##
+## <a id="Ch01_01">INTRODUCE THE JAVA PROGRAMMING LANGUAGE</a> ##
 
 **What is a computer?**<br>
 A computer is composed of <a id="01">_hardware_</a> and <a id="02">_software_</a>. The hardware is some physical and 
@@ -125,7 +125,7 @@ continue     | for         | null        | synchronized|
 A valid Java program can be formatted many ways. At any rate, programs should
 be formatted to enhance readability (e.g. using consistent indentation).
 
-## PROGRAM COMPILATION AND EXECUTION ##
+## <a id="Ch01_02">PROGRAM COMPILATION AND EXECUTION</a> ##
 
 **Basic programming steps**<br>
 A program is written in an editor, compiled into an executable form, and then executed.
@@ -199,7 +199,7 @@ will cause a program to terminate abnormally
 * <a id="32">_logical errors_</a> - A program may run, but produce incorrect results as a result of, 
 perhaps, an incorrect formula.
 
-## PROBLEM SOLVING IN GENERAL ##
+## <a id="Ch01_03">PROBLEM SOLVING IN GENERAL</a> ##
 
 **Problem solving process**<br>
 The purpose of writing a program is to solve a problem.
@@ -220,7 +220,7 @@ pieces are responsible for certain parts of the solution. An <a id="33">_object-
 is suitable for this kind of solution decomposition. Under this approach, our solutions are
 dissected into pieces called objects and classes.
 
-## THE SOFTWARE DEVELOPMENT PROCESS ##
+## <a id="Ch01_04">THE SOFTWARE DEVELOPMENT PROCESS</a> ##
 
 **Basic development activities**<br>
 Any proper software development effort consists of four basic <a id="34">_development activities_</a>:
@@ -239,7 +239,7 @@ These steps are not linear and may often overlap and interact
 * <a id="39">_Testing_</a> is the act of ensuring that a program will work as intended given all the
 constraints under which it must perform 
 
-## OVERVIEW OF OBJECT-ORIENTED PRINCIPLES ##
+## <a id="Ch01_05">OVERVIEW OF OBJECT-ORIENTED PRINCIPLES</a> ##
 
 **Object-oriented programming**<br>
 Java is an <a id="40">_object-oriented</a> programming language. An object is a fundamental entity
