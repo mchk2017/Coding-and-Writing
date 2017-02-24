@@ -5,6 +5,10 @@
 
 # CHAPTER 1 INTRODUCTION
 
+##KEYWORDS##
+[hardware](#01)  [software](#02)
+[encapsulated](#10)
+
 Abraham Lincoln:
 
 > Whatever you are, be a good one.
@@ -12,7 +16,7 @@ Abraham Lincoln:
 ## INTRODUCE THE JAVA PROGRAMMING LANGUAGE ##
 
 **What is a computer?**<br>
-A computer is composed of *hardware* and *software*. The hardware is some physical and 
+A computer is composed of <a id="01">*hardware*</a> and <a id="02">*software*</a>. The hardware is some physical and 
 tangible pieces that support computing power. The software consists of programs and the 
 data those programs use. A *program* is a series of instructions that the hardware executes
 one after the other. Programs are sometimes called *applications*.
@@ -250,7 +254,7 @@ house with different characteristics.
 One class can be used to derive another class via/from inheritance, such that classes
 can be organized into hierachies.
 
-An object is _encapsulated_, protecting the data it manages.
+An object is <a id="10">_encapsulated_</a>, protecting the data it manages.
 
 ![image1_3](./images/ClassesAndObjects.JPG)
 
