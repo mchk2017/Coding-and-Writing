@@ -6,8 +6,16 @@
 # CHAPTER 1 INTRODUCTION
 
 ##KEYWORDS##
-[hardware](#01)  [software](#02)
-[encapsulated](#10)
+[hardware](#01) [software](#02) [program](#03) [applications](#04) [program statements](#05)
+[classes](#06) [methods](#07) [statements](#08) [class header](#09) [class body](#10)
+[method header](#11) [method body](#12) [comments](#13) [identifiers](#14) [case sensitive](#15)
+[title case](#16) [upper case](#17) [reserved words](#18) [white space](#19) [machine language](#20)	
+[source code](#21) [bytecode](#22) [interpreter](#23) [architecture-neutral](#24) [development environment](#25)
+[integrated development environment](#26) [debugger](#27) [syntax](#28) [semantics](#29) [compile-time errors](#30)
+[run-time errors](#31) [logical errors](#32) [object-oriented approach](#33) [development activities](#34) [Software requirements](#35)
+[functional specification](#36) [software design](#37) [implementation](#38) [testing](#39) [object-oriented](#40)
+[object](#41) [state](#42) [behaviours](#43) [class](#44) [inheritance](#45)
+[encapsulated](#46)
 
 Abraham Lincoln:
 
@@ -16,22 +24,22 @@ Abraham Lincoln:
 ## INTRODUCE THE JAVA PROGRAMMING LANGUAGE ##
 
 **What is a computer?**<br>
-A computer is composed of <a id="01">*hardware*</a> and <a id="02">*software*</a>. The hardware is some physical and 
+A computer is composed of <a id="01">_hardware_</a> and <a id="02">_software_</a>. The hardware is some physical and 
 tangible pieces that support computing power. The software consists of programs and the 
-data those programs use. A *program* is a series of instructions that the hardware executes
-one after the other. Programs are sometimes called *applications*.
+data those programs use. A <a id="03">_program_</a> is a series of instructions that the hardware executes
+one after the other. Programs are sometimes called <a id="04">_applications_</a>.
 
 **What is a programming language?**<br>
 A programming language specifies the words and symbols that we can use to write a program.
 A programming language employs a set of rules that dictate how the words and symbols can be
-put together to form valid *program statements*. 
+put together to form valid <a id="05">_program statements_</a>. 
 
 **The Java programming language**<br>
 The Java programming language was created by Sun Microsystems, Inc. It was introduced in 1995 
 and its popularity grew quickly.
 
-A Java program is made up of one or more *classes*. Each class contains one or more *methods*.
-A method contains program *statements*.
+A Java program is made up of one or more <a id="06">_classes_</a>. Each class contains one or more
+ <a id="07">_methods_</a>. A method contains program <a id="08">_statements_</a>.
 
 A Java application always contains a method called `main`.
 
@@ -54,10 +62,10 @@ public class Lincoln {
 }
 ```
 A typical Java program like `Lincoln.java` above has a class and a method(the `main` method). 
-Each class has a *class header* and a *class body*. By the same token, each method
-consists of a *method header* and a *method body*. 
+Each class has a <a id="09">_class header_</a> and a <a id="10">_class body_</a>. By the same token, each method
+consists of a <a id="11">_method header_</a> and a <a id="12">_method body_</a>. 
 
-You can add *comments* almost anywhere in the program. Comments should be added to explain 
+You can add <a id="13">_comments_</a> almost anywhere in the program. Comments should be added to explain 
 the purpose of the program and describe processing detail. They do not affect how a program
 works. Java comments come in three forms:
 
@@ -70,19 +78,19 @@ works. Java comments come in three forms:
 
 **Identifiers**<br>
 
-* The words a programmer uses in a program are called _identifiers_
+* The words a programmer uses in a program are called <a id="14">_identifiers_</a>
 * An identifier can be made up of letters, digits, the underscore character (\_)
 and the dollar sign
 * An identifier cannot begin with a digit
-* Java is _case sensitive_. So `Total`, `total` and `TOTAL` are three different identifiers
+* Java is <a id="15">_case sensitive_</a>. So `Total`, `total` and `TOTAL` are three different identifiers
 * By convention, programmers take advantage of different case styles for different types of
 identifiers, e.g. 
-  * _title case_ for class names - `Lincoln`
-  * _upper case_ for constants - `MAXIMUM`
+  * <a id="16">_title case_</a> for class names - `Lincoln`
+  * <a id="17">_upper case_</a> for constants - `MAXIMUM`
 * Sometimes we choose identifiers ourselves when writing a program (such as
 `Lincoln`). Sometimes when we use another programmer's code, we need to use
 the identifiers that he or she chose (such as `println`). Often we use special
-identifiers called _reserved words_ that already have a predefined meaning in
+identifiers called <a id="18">_reserved words_</a> that already have a predefined meaning in
 the programming language. A reserved word cannot be used in any other way.
 
 **Java reserved words:**
@@ -103,7 +111,7 @@ continue     | for         | null        | synchronized|
 
 **White space**<br>
 
-* Spaces, blank lines, and tabs are called _white space_
+* Spaces, blank lines, and tabs are called <a id="19">_white space_</a>
 * White space is used to separate words and symbols in a program
 * Extra white space is ignored
 
@@ -134,29 +142,29 @@ There are four programming language levels:
 * high-level language (e.g. Java)
 * fourth-generation language (e.g. SQL)
 
-Each type of CPU has its own specific *machine language*. The other levels were created to make it easier for a human being
-to read and write programs
+Each type of CPU has its own specific <a id="20">_machine language_</a>. The other levels were created 
+to make it easier for a human being to read and write programs
 
 A high-level expression and its lower level equivalents
 ![image1_1](images/LanguageLevels.JPG)
 
 **Compilation and Java's approach**<br>
-A compiler is a software tool which translates *source code* into a specific target
+A compiler is a software tool which translates <a id="21">_source code_</a> into a specific target
 language. Often, that target language is the machine language for a particular CPU 
 type. However, Java compiler is somewhat different.
 
-The Java compiler translates Java source code into *bytecode*. Java bytecode is not the
-machine language for any traditional CPU. Another software tool, called *interpreter*,
+The Java compiler translates Java source code into <a id="22">_bytecode_</a>. Java bytecode is not the
+machine language for any traditional CPU. Another software tool, called <a id="23">_interpreter_</a>,
 translates bytecode into machine language and executes it. Therefore the Java compiler is
-not tied to any particular machine/CPU. Java is considered to be *architecture-neutral*.
+not tied to any particular machine/CPU. Java is considered to be <a id="24">_architecture-neutral_</a>.
 
 ![image1_2](images/JavaTranslation.JPG)
 
 **Environments for program development**<br>
-A *development environment* is the set of tools used to create, test, and modify a 
-program. And an *integrated development environment* (IDE) combine these tools into
+A <a id="25">_development environment_</a> is the set of tools used to create, test, and modify a 
+program. And an <a id="26">_integrated development environment_</a> (IDE) combine these tools into
 one software program. All Java IDEs contain key tools such as a compiler and interpreter.
-Some include additional tools such as a *debugger*, which helps a programmer to find 
+Some include additional tools such as a <a id="27">_debugger_</a>, which helps a programmer to find 
 errors.
 
 There are many IDEs that support the development of Java software, including:
@@ -170,8 +178,8 @@ Though the details of these IDEs differ, the basic compilation and execution pro
 essentially the same.
 
 **Syntax and semantics of a program**<br>
-The *syntax* defines how identifiers, reserved words, and symbols can be 
-put together to make a valid program. The *semantics* of a program statement defines 
+The <a id="28">_syntax_</a> defines how identifiers, reserved words, and symbols can be 
+put together to make a valid program. The <a id="29">_semantics_</a> of a program statement defines 
 what that statement means (i.e. its purpose or role in a program). A program that is
 syntactically correct is not necessarily semantically/logically correct. A program will
 always do what we tell it to do, not what we `meant` to tell it to do.
@@ -179,10 +187,10 @@ always do what we tell it to do, not what we `meant` to tell it to do.
 **Errors that can occur in a program**<br>
 There are three types of errors:
 
-* _compile-time errors_ - The compiler will find syntax errors and other basic problems
-* _run-time errors_ - During program execution, a problem such as trying to divide by zero
+* <a id="30">_compile-time errors_</a> - The compiler will find syntax errors and other basic problems
+* <a id="31">_run-time errors_</a> - During program execution, a problem such as trying to divide by zero
 will cause a program to terminate abnormally
-* _logical errors_ - A program may run, but produce incorrect results as a result of, 
+* <a id="32">_logical errors_</a> - A program may run, but produce incorrect results as a result of, 
 perhaps, an incorrect formula.
 
 ## PROBLEM SOLVING IN GENERAL ##
@@ -202,14 +210,14 @@ These activities are not linear – they may overlap and interact.
 
 **How to design a solution**<br>
 The key to designing a solution is breaking it down into manageable pieces. Such separate
-pieces are responsible for certain parts of the solution. An *object-oriented approach*
+pieces are responsible for certain parts of the solution. An <a id="33">_object-oriented approach_</a>
 is suitable for this kind of solution decomposition. Under this approach, our solutions are
-dissected into pieces called _objects_ and _classes_.
+dissected into pieces called objects and classes.
 
 ## THE SOFTWARE DEVELOPMENT PROCESS ##
 
 **Basic development activities**<br>
-Any proper software development effort consists of four basic *development activities*:
+Any proper software development effort consists of four basic <a id="34">development activities</a>:
 
 - establishing the requirements for solving a problem
 - creating a design
@@ -218,29 +226,29 @@ Any proper software development effort consists of four basic *development activ
 
 These steps are not linear and may often overlap and interact
 
-* _Sofware requirements_ specify what a program must accomplish
-* _Functional specification_ documents the expression of these requirements
-* A _software design_ indicates how a program will accomplish its requirements
-* _Implementation_ is the process of writing the source code that will solve the problem
-* _Testing_ is the act of ensuring that a program will work as intended given all the
+* <a id="35">_Software requirements_</a> specify what a program must accomplish
+* <a id="36">_Functional specification_</a> documents the expression of these requirements
+* A <a id="37">_software design_</a> indicates how a program will accomplish its requirements
+* <a id="38">_Implementation_</a> is the process of writing the source code that will solve the problem
+* <a id="39">_Testing_</a> is the act of ensuring that a program will work as intended given all the
 constraints under which it must perform 
 
 ## OVERVIEW OF OBJECT-ORIENTED PRINCIPLES ##
 
 **Object-oriented programming**<br>
-Java is an *object-oriented* programming language. An object is a fundamental entity
+Java is an <a id="40">_object-oriented</a> programming language. An object is a fundamental entity
 in a Java program. Objects can be used effectively to represent real-world entities.
 For instance, an object might represent a particular employee in a company. Each
 employee object handles the processing and data management related to that employee.
 
 **Objects**<br>
-An __object__ has _state_ (descriptive characteristics) and _behaviours_ (what it can do).
+An <a id="41">_object_</a> has <a id="42">_state_</a> (descriptive characteristics) and <a id="43">_behaviours_</a> (what it can do).
 For instance, the state of a bank account includes its account number and its current
 balance; the behaviours associated with a bank account include the ability to make
 deposits and withdrawals. Note that the behaviour of an object might change its state.
 
 **Classes**<br>
-An object is defined by a __class__, i.e. a class is the blueprint of an object. The class
+An object is defined by a <a id="44">_class_</a>, i.e. a class is the blueprint of an object. The class
 uses methods to define the behaviours of the object. The class that contains the main
 method of a Java program represents the entire program. 
 
@@ -251,10 +259,10 @@ Multiple objects can be created from the same class.
 A class is like a blueprint of, say, a house from which you can create many of the "same"
 house with different characteristics.
 
-One class can be used to derive another class via/from inheritance, such that classes
+One class can be used to derive another class via/from <a id="45">_inheritance_</a>, such that classes
 can be organized into hierachies.
 
-An object is <a id="10">_encapsulated_</a>, protecting the data it manages.
+An object is <a id="46">_encapsulated_</a>, protecting the data it manages.
 
 ![image1_3](./images/ClassesAndObjects.JPG)
 
