@@ -225,10 +225,10 @@ dissected into pieces called objects and classes.
 **Basic development activities**<br>
 Any proper software development effort consists of four basic <a id="34">_development activities_</a>:
 
-- establishing the requirements (i.e. list the requirements and then describe them in detail)
-- creating a design
-- implement the design
-- testing the implementation
+- establishing the requirements (i.e. listing the requirements and then describing them in detail)
+- creating a design (i.e. designing the requirements)
+- implement the design (i.e. coding)
+- testing the implementation (i.e. testing code)
 
 These steps are not linear and may often overlap and interact
 
