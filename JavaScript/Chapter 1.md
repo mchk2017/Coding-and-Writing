@@ -39,5 +39,27 @@
    * A value can be returned to the caller using the __return__ keyword
    * Unlike global variables declared in the main script body, local variables declared inside a function
      are only accessible from within that function
+
+***Source Code for Chapter 1***
+<ul>
+  <li>Introduction</li>
+  <li>JavaScript keywords</li>
+  <li><a href="src/1-Getting started/inline.html">Including inline script</a></li>
+  <li><a href="src/1-Getting started/head.html">Calling head section script</a></li>
+  <li><a href="src/1-Getting started/external.html">Embedding external script</a> -
+	<a href="src/1-Getting started/external.js"> js</a></li>
+  <li><a href="src/1-Getting started/variable.html">Storing data in variables</a> -
+	<a href="src/1-Getting started/variable.js"> js</a></li>
+  <li><a href="src/1-Getting started/argument.html">Passing function arguments</a> -
+	<a href="src/1-Getting started/argument.js"> js</a></li>
+  <li><a href="src/1-Getting started/scope.html">Recognizing variable scope</a> -
+	<a href="src/1-Getting started/scope.js"> js</a></li>
+  <li><a href="src/1-Getting started/domload.html">Domload</a> - 
+	<a href="src/1-Getting started/domload.js"> js</a></li>
+</ul>      	 
      
+	 
+	 
+	 
+	 
 
