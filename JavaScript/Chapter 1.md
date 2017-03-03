@@ -18,14 +18,14 @@
      interpreter is embedded in web browser software
    * Variable names and function names must avoid the JavaScript keywords, reserved words, and 
      built-in or DOM object names
-   * For JavaScript code each opening HTML **<script\>** tag must specify the MIME type of "text/javascript"
+   * For JavaScript code each opening HTML **&lt;script&gt;** tag must specify the MIME type of "text/javascript"
      to its __type__ attribute
    * Script blocks may include single-line and multi-line comments
    * Each JavaScript statement must be terminated by a semi-colon
    * Inline JavaScript code can be assigned to any HTML event attribute, such as __onload__, or enclosed 
-     within a  **<script\>** element in the document body section – but is best avoided
+     within a  **&lt;script&gt;** element in the document body section – but is best avoided
    * All JavaScript code is best located in an external file whose path is specified to an __src__ attribute
-     of the  **<script\>** tag
+     of the  **&lt;script&gt;** tag
    * Unobtrusive JavaScript places all script code in an external file and can specify a function to the
      __DOMContentLoaded__ event to set behaviours when the entire page content has loaded
    * The __window.onload__ event can be used to set behaviours for older browsers when the entire page

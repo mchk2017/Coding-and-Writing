@@ -24,8 +24,8 @@
    * The __Geolocation API__ provides the ability to pin-point the user's location by estimating latitude
      and longitude coordinates – but only if the user consents to send information
    * The __Canvas 2D API__ provides properties and methods that allow JavaScript to paint shape and text
-     onto a bitmap canvas area created by the HTML5 **<canvas\>** element
-   * The Canvas 2D API can be used to manipulate pixel color via the **<data\>** property of its
+     onto a bitmap canvas area created by the HTML5 **&lt;canvas&gt;** element
+   * The Canvas 2D API can be used to manipulate pixel color via the **&lt;data&gt;** property of its
      __CanvasPixelArray__ object
 
 ***Source Code for Chapter 13***
