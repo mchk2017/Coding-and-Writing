@@ -13,6 +13,21 @@
 ## Finding characters
 ## Getting numbers from strings
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Source Code for Chapter 6***
         <ul>

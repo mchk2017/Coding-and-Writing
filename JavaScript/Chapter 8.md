@@ -10,6 +10,21 @@
 ## Setting and retrieving cookies
 ## Writing with JavaScript
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Source Code for Chapter 8***
         <ul>

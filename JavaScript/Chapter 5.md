@@ -9,6 +9,21 @@
 ## Extracting time components
 ## Setting the date and time
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Source Code for Chapter 5***
         <ul>

@@ -11,6 +11,21 @@
 ## Examining conditions
 ## Setting precedence
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Source Code for Chapter 2***
         <ul>

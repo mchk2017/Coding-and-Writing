@@ -13,6 +13,21 @@
 ## Programming the application
 ## Running the web application
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Source Code for Chapter 12***
 <ul>

@@ -10,6 +10,21 @@
 ## Recognizing mouse moves
 ## Identifying focus
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Source Code for Chapter 9***
         <ul>

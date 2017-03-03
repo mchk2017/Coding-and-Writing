@@ -15,6 +15,21 @@
 ## Controlling location
 ## Travelling through history
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Source Code for Chapter 7***
         <ul>

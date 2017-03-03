@@ -10,6 +10,21 @@
 ## Enlarging thumbnails
 ## Animating elements
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Souce Code for Chapter 11***
         <ul>

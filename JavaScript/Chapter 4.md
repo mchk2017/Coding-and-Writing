@@ -13,6 +13,21 @@
 ## Sorting array elements
 ## Catching exceptions
 ## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
 
 ***Source Code for Chapter 4***
         <ul>
