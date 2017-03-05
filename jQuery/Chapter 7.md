@@ -4,3 +4,54 @@
 [Back to TOC](./THE BOOK ON JQUERY.md)
 
 # CHAPTER 7 PRODUCING EFFECTS
+## Hiding elements
+## Toggling elements
+## Sliding elements
+## Fading content
+## Fading to levels
+## Animating elements
+## Stopping animations
+## Handling queues
+## Summary<br>
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+
+***Source Code for Chapter 7***
+<ul>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+  <li><a href="src/.html"></a></li>
+</ul>   
