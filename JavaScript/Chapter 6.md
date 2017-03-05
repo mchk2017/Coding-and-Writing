@@ -13,21 +13,28 @@
 ## Finding characters
 ## Getting numbers from strings
 ## Summary<br>
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
+   * The largest and smallest of two numbers can be discovered by the __Math.max()__ and __Math.min()__
+     methods
+   * Floating-point numbers can be rounded to a near integer with the __Math.ceil()__, __Math.floor()__, 
+     and __Math.round()__ methods
+   * The __Math.random()__ method returns a floating-point number between 0.0 and 1.0, which can be
+     multiplied and rounded to specify a range of random integer numbers
+   * The built-in String object has a __length__ property that stores the number of characters in a string
+   * Character case can be modified with the string __toUpperCase()__ and __toLowerCase()__ methods
+   * The internal __eval()__ method should be avoided as it is usually inefficient and can have security
+     implications
+   * String methods treat each string as an array of characters that can be referenced by their index position
+   * The __substring()__ and __substr()__ methods can be used to copy sections of a string
+   * A string can be separated into an array of substrings by specifying a separator character to the
+     __split()__ method
+   * The __search()__, __match()__, and __indexOf()__ methods can be used to search a string for the 
+     presence of a specified substring
+   * A substring can be replaced using the __replace()__ method
+   * The internal __isNaN()__ function evaluates its argument to determine whether it has a numerical value
+   * The internal __pareseInt()__ and __parseFloat()__ methods return a numerical value from the start of
+     a specified string argument   
+   * A radix argument should always be supplied to the internal __parseInt()__ function to specify which
+     numbering system to use
 
 ***Source Code for Chapter 6***
         <ul>

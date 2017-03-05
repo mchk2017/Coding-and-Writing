@@ -13,21 +13,29 @@
 ## Sorting array elements
 ## Catching exceptions
 ## Summary<br>
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
+   * An object is a self-contained entity comprising properties that store data and methods that perform
+     tasks
+   * JavaScript has three types of object – built-in objects, DOM objects, and custom objects
+   * A custom object is defined by a prototype function that specifies the object name, properties, and
+     methods
+   * Properties can be initialized by parameters passed when an instance of the custom is created using
+     the __new__ keyword
+   * Custom objects can be extended using their intrinsic __prototype__ property to add properties or
+     methods
+   * Instances of a custom object inherit all properties and methods of the prototype, including extended
+     ones
+   * An array is a JavaScript built-in object that can store multiple items of date in individual elements
+   * The __new__ keyword and the __Array()__ constructor can be used to create an array instance for
+     assignment to a named variable
+   * Array elements are automatically numbered from zero and each array element can be referenced by stating
+     its index number within square brackets after the array variable name
+   * Loops are a great way to populate the elements of an array or to read each element's value on successive
+     iterations
+   * Arrays have a __length__ property that can be used to terminate a loop or to resize the array
+   * By default, the __sort()__ method of an array object converts all element values to strings, then sorts
+     them in dictionary order, unless a comparison function is specified as its argument
+   * Exception errors can be thrown from a try block to a catch block for error-handling and their name and
+     message properties can describe the nature of error
 
 ***Source Code for Chapter 4***
         <ul>

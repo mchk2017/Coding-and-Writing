@@ -15,21 +15,29 @@
 ## Controlling location
 ## Travelling through history
 ## Summary<br>
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
+   * The Doument Object Model(DOM) is a hierarchial representation of all components of a web page
+   * The __window__ object is the top level in the DOM hierarchy and has properties describing the
+     browser window
+   * The __screen__ object is a child of the __window__ object and has properties describing the 
+     screen dimensions and color depth
+   * Dialog messages can be displayed using the windos object's __alert()__, __confirm()__, and 
+     __prompt()__ methods
+   * A popup window can be created using the window object's __open()__ method but may be obstructed by
+     a popup blocker
+   * The window object's __setTimeout()__ method creates a timer, which can be cancelled later using the
+     __clearTimeout()__ method
+   * The __navigator__ object is a child of the __window__ object and has properties describing the browser
+     and host platform versions
+   * As the __window__ object exists in the global namespace all its child objects need not include that
+     part of the address, so that __window.navigator__ can simply be referenced as __navigator__
+   * The practice of browser detection by querying the __navigator__ properties is bad practice – feature
+     detection should be used instead to ensure that DOM support exists
+   * The __navigator.plugins__ and __navigator.mimeTypes__ properties are both arrays on Mozilla browsers,
+     in which each element contains details of a supported feature
+   * The __location__ object is a child of the __window__ object and has properties describing the address
+     of the loaded document
+   * The __history__ object is a child of the __window__ object that contains an array of visited locations
+     in the current session and has methods to navigate along its elements
 
 ***Source Code for Chapter 7***
         <ul>
