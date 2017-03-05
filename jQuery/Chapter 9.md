@@ -37,7 +37,7 @@
 ***Source Code for Chapter 9***
 <ul>
   <li><a href="src/htdocs/getouter.html">Grabbing plugins</a> - 
-      <a href="src/htdocs/jquery.get-outer-plugin.js"> js</a></li>
+      <a href="src/htdocs/jquery.get-outer-html.js"> js</a></li>
   <li><a href="src/htdocs/basic-plugin.html">Writing plugins</a> - 
       <a href="src/htdocs/jquery.basic-plugin.js"> js</a></li>
   <li><a href="src/htdocs/chain-plugin.html">Enabling chains</a> - 
