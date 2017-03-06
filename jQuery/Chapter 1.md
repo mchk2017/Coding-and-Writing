@@ -24,7 +24,7 @@
      to be performed on them
    * The __$( document ).ready()__ function gets called when the DOM has loaded and so can usefully contain
      an anonymous JavaScript function enclosing all jQuery statements
-   * The __$()__ function syntax is a shortcut for the j__Query()__ function that can be used instead, and if
+   * The __$()__ function syntax is a shortcut for the __jQuery()__ function that can be used instead, and if
      using __jQuery.noConflict()__
    * jQuery's most basic selectors specify elements by tag name __$( "p" )__, by ID __$( "#theId" )__, and
      by class __$( ".theClass" )__

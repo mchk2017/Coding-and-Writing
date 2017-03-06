@@ -18,9 +18,9 @@
      __html()__ method
    * An element's attribute value can be retrieved or added using the jQuery's object's __attr()__ method
    * An element's attribute can be removed from the DOM using the jQuery's object's __removeAttr()__ method
-   * Content can be added <u>outside</u> an element using the __before()__, __insertBefore()__, __after()__ and
+   * Content can be added _outside_ an element using the __before()__, __insertBefore()__, __after()__ and
      __insertAfter()__ methods
-   * Content can be added <u>inside</u> an element using the __prepend()__, __prependTo()__, __append()__ and
+   * Content can be added _inside_ an element using the __prepend()__, __prependTo()__, __append()__ and
      __appendTo()__ methods
    * An HTML structure can be added around an element using the __wrap()__ method or removed using the __unwrap()__
      method
