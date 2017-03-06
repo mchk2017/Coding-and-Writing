@@ -11,26 +11,28 @@
 ## Handling failure
 ## Setting global handlers
 ## Summary<br>
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
+   * Content of an element in a jQuery object can be replaced via AJAX by specifying a URL to that
+     object's __load()__ method
+   * A jQuery selector can be added after a space and the URL argument to the __load()__ method to specify a
+     document portion
+   * Optionally, a callback function can be specified as an additional argument to the __load()__ method, to be
+     executed on completion
+   * A callback function for the __load()__ method can receive the returned content, status, and XMLHttpRequest object
+   * The __load()__ method uses the HTTP __GET__ and __POST__ methods to retrieve data from the server and to send
+     data to the server
+   * The jQuery __$.get()__ method uses the HTTP __GET__ method and can accept URL, data, callback, and data type arguments
+   * The jQuery __$.post()__ method uses the HTTP __POST__ method and can accept URL, data, callback, and data type arguments
+   * JavaScript objects can be retrieved by the jQuery __$.getJSON()__ method and scripts by the jQuery __$.getScript()__ method
+   * Maximum control when performing AJAX requests is provided by the options of the jQuery __$.ajax()__ method
+   * Form data can be prepared for submission as a string with the __serialize()__ method or as an array with 
+     __serializeArray()__ method
+   * Unlike __$.post()__ or __$.get()__ the jQuery __$.ajax()__ method provides the ability to execute a function when an
+     AJAX call fails
+   * Callback functions can be specified as __$.ajax()__ options to the AJAX "Local Events" __beforeSend__, __success__,
+     __error__, and __complete__
+   * Event-handlers can be specified to the AJAX "Global Events" __ajaxStart__, __ajaxSend__, __ajaxSuccess__, __ajaxComplete__, 
+     and __ajaxStop__
+   * Global event-handler functions must be specified as arguments to like-named methods attached to the __$(document)__ object
 
 ***Source Code for Chapter 8***
 <ul>

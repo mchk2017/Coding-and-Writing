@@ -13,26 +13,27 @@
 ## Attaching data
 ## Storing data
 ## Summary<br>
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
+   * An element's text content can be retrieved or added using the jQuery's object's __text()__ method
+   * An element's text and HTML tag content can both be retrieved or added using the jQuery's object's
+     __html()__ method
+   * An element's attribute value can be retrieved or added using the jQuery's object's __attr()__ method
+   * An element's attribute can be removed from the DOM using the jQuery's object's __removeAttr()__ method
+   * Content can be added <u>outside</u> an element using the __before()__, __insertBefore()__, __after()__ and
+     __insertAfter()__ methods
+   * Content can be added <u>inside</u> an element using the __prepend()__, __prependTo()__, __append()__ and
+     __appendTo()__ methods
+   * An HTML structure can be added around an element using the __wrap()__ method or removed using the __unwrap()__
+     method
+   * An HTML structure can be added around a collection of elements using the __wrapAll()__ and __wrapInner()__ methods
+   * An element or collection of elements can be replaced using the __replaceWith()__ and __replaceAll()__ methods
+   * An element's content and descendants can be copied using the __clone()__ method or removed using the
+     __empty()__ method
+   * An element can be removed together with its content and descendants using the __remove()__ or __detach()__ methods
+   * Only elements removed using the __detach()__ method retain data and behaviours created by jQuery when re-attached
+     later
+   * Data can be attached as argument pairs to the __data()__ method and its existence confirmed using the __hasData()__
+     method
+   * Data attached to an element can be retrieved using the __data()__ method and removed using the __removeData()__ method
 
 ***Source Code for Chapter 4***
 <ul>

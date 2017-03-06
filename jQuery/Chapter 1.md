@@ -16,27 +16,32 @@
 ## Filtering visibility
 ## Optimizing selections
 ## Summary<br>
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   
+   * jQuery is a lightweight multi-browser JavaScript library that makes it easier to incorporate
+     JavaScript features on websites
+   * jQuery can be enabled by hosting the minimized jQuery library file on your website or alternatively
+     by indicating the library file's location online at the Google or Microsoft CDN
+   * A jQuery statement typically contains a selector to return a collection of elements and an action
+     to be performed on them
+   * The __$( document ).ready()__ function gets called when the DOM has loaded and so can usefully contain
+     an anonymous JavaScript function enclosing all jQuery statements
+   * The __$()__ function syntax is a shortcut for the j__Query()__ function that can be used instead, and if
+     using __jQuery.noConflict()__
+   * jQuery's most basic selectors specify elements by tag name __$( "p" )__, by ID __$( "#theId" )__, and
+     by class __$( ".theClass" )__
+   * jQuery __Attribute__ selectors select all elements containing a set attribute __$( "[lang]" )__ or those of
+     set value __$( "[lang='fr']" )__
+   * jQuery __Order__ selectors select elements according to their zero-based index position in a selected
+     collection __$( "li:eq( 1 )" )__
+   * jQuery __Child__ selectors select only all immediate children of a specified parent element, but not
+     grandchildren __$( "ol > li" )__
+   * jQuery __Descendant__ selectors select all hierarchy levels below a specific parent element, including
+     grandchildren __$( "p span" )__
+   * Multiple selection expressions can appear in a single jQuery selector as a comma-separated list
+   * The * universal selector can be used with the __find()__ method to select all descendants of an 
+     element __$( "body" ).find( "*" )__
+   * Elements can be selected according to visibility with the 
+     __filter()__ method __$( "body" ).find( "*" ).filter( ":hidden" )__
+
 ***Source Code for Chapter 1***
 <ul>
   <li>Introducing jQuery</li>
