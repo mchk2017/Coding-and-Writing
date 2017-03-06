@@ -36,22 +36,20 @@
 
 ***Source Code for Chapter 7***
 <ul>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
-  <li><a href="src/.html"></a></li>
+  <li>
+  <a href="src/visibility.html">Hiding elements</a></li>
+  <li>
+  <a href="src/toggle.html">Toggling elements</a></li>
+  <li>
+  <a href="src/slide.html">Sliding elements</a></li>
+  <li>
+  <a href="src/fade.html">Fading content</a></li>
+  <li>
+  <a href="src/fadeto.html">Fading to levels</a></li>
+  <li>
+  <a href="src/animate.html">Animating elements</a></li>
+  <li>
+  <a href="src/stop.html">Stopping animations</a></li>
+  <li>
+  <a href="src/queue.html">Handling queues</a></li>
 </ul>   
