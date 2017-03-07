@@ -23,7 +23,7 @@
      explicitly determine visibility
    * The __slideUp()__, __slideDown()__, and __slideToggle()__ animation effect methods change the visible CSS
      __height__ property
-   * The __fadeIn()__, __fadeOut()__, and fadeToggle()__ animation effect methods change the visible CSS __opacity__
+   * The __fadeIn()__, __fadeOut()__, and __fadeToggle()__ animation effect methods change the visible CSS __opacity__
      property
    * The level of opacity at which to stop fading is specified as an argument in the range 0.0 to 1.0 with the __fadeTo()__
      method
@@ -35,7 +35,7 @@
      method
    * The __stop()__ method can accept a pair of Boolean values to explicitly determine "clearQueue" and "jumpToEnd" properties
    * Multiple animations assigned to an element in a jQuery object get placed in a default queue named "fx"
-   * The __length__property of the __queue()__ method contains an integer denoting the number of animations remaining
+   * The __length__ property of the __queue()__ method contains an integer denoting the number of animations remaining
      in the queue
    * Queued animiations can be paused by the __delay()__ method and the entire queue can be terminated by the __finished()__ 
      method

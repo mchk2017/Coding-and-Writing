@@ -55,7 +55,7 @@
   <a href="src/simple.html">simple</a> - 
   <a href="src/callbacks.html">callbacks</a></li>
   <li>
-  <a href="src/deferred.html">deferred</a></li>
+  <a href="src/deferred.html">Deferring callbacks</a></li>
   <li>
-  <a href="src/promise.html">promise</a></li>
+  <a href="src/promise.html">Keeping promises</a></li>
 </ul>   
