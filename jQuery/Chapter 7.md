@@ -13,26 +13,32 @@
 ## Stopping animations
 ## Handling queues
 ## Summary<br>
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
+   * Visibility of an element in a jQuery object can be changed using that object's __hide()__ and __show()__
+     methods
+   * Animation effects must specify a duration argument, expressed in milliseconds or using the keywords "fast" 
+     or "slow"
+   * Optionally, a final callback function argument can be specified to be called on completion of an animation
+     effect
+   * The __toggle()__ method reverses the current CSS __display__ property or can accept a Boolean value to 
+     explicitly determine visibility
+   * The __slideUp()__, __slideDown()__, and __slideToggle()__ animation effect methods change the visible CSS
+     __height__ property
+   * The __fadeIn()__, __fadeOut()__, and fadeToggle()__ animation effect methods change the visible CSS __opacity__
+     property
+   * The level of opacity at which to stop fading is specified as an argument in the range 0.0 to 1.0 with the __fadeTo()__
+     method
+   * Any numeric CSS property of an element in a jQuery object can be dynamically changed by that object's __animate()__
+     method
+   * CSS properties and values are specified as key:value pairs in a JavaScript object as the first argument to the
+     __animate()__ method
+   * An animation currently running on an element object can be immediately stopped by calling that object's __stop()__
+     method
+   * The __stop()__ method can accept a pair of Boolean values to explicitly determine "clearQueue" and "jumpToEnd" properties
+   * Multiple animations assigned to an element in a jQuery object get placed in a default queue named "fx"
+   * The __length__property of the __queue()__ method contains an integer denoting the number of animations remaining
+     in the queue
+   * Queued animiations can be paused by the __delay()__ method and the entire queue can be terminated by the __finished()__ 
+     method
 
 ***Source Code for Chapter 7***
 <ul>
