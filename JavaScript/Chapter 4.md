@@ -24,7 +24,7 @@
      methods
    * Instances of a custom object inherit all properties and methods of the prototype, including extended
      ones
-   * An array is a JavaScript built-in object that can store multiple items of date in individual elements
+   * An array is a JavaScript built-in object that can store multiple items of data in individual elements
    * The __new__ keyword and the __Array()__ constructor can be used to create an array instance for
      assignment to a named variable
    * Array elements are automatically numbered from zero and each array element can be referenced by stating
