@@ -1,5 +1,5 @@
-baseurl: "/Coding and Writing"
 theme: jekyll-theme-tactile
+baseurl: "/Coding-and-Writing"
 kramdown:
   input: GFM
   hard_wrap: false
