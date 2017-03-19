@@ -1,7 +1,7 @@
-theme: jekyll-theme-tactile
-url: http://mchk2017.github.io
 kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
+  
+theme: jekyll-theme-tactile
 
