@@ -1,5 +1,1 @@
 theme: jekyll-theme-tactile
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
