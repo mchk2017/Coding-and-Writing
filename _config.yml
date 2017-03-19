@@ -1,7 +1,5 @@
+baseurl: "/Coding and Writing"
 theme: jekyll-theme-tactile
-highlighter: rouge
-markdown: kramdown
-
 kramdown:
   input: GFM
   hard_wrap: false
