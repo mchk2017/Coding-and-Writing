@@ -1,5 +1,5 @@
 theme: jekyll-theme-tactile
-baseurl: "/Coding-and-Writing"
+url: http://mchk2017.github.io
 kramdown:
   input: GFM
   hard_wrap: false
