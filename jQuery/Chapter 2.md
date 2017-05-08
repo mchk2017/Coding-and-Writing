@@ -1,7 +1,7 @@
 # **jQuery in Easy Steps - Create Dynamic Web Pages**
 ## Mike McGrath
 
-[Back to TOC](./THE BOOK ON JQUERY.md)
+[Back to TOC](THE%20BOOK%20ON%20JQUERY.md)
 
 # CHAPTER 2 PERFORMING ACTIONS
 ## Traversing elements
