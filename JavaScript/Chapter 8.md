@@ -1,7 +1,7 @@
 # **JavaScript in Easy Steps - Create Functions for the Web (5th Edition)**
 ## Mike McGrath
 
-[Back to TOC](./THE BOOK ON JAVASCRIPT.md)
+<a href="THE BOOK ON JAVASCRIPT.md">Back to TOC</a>
 
 # CHAPTER 8 INTERACTING WITH THE DOCUMENT
 ## Extracting document info
