@@ -1,6 +1,8 @@
 # **jQuery in Easy Steps - Create Dynamic Web Pages**
 ## Mike McGrath
 
+[Back to TOC](THE%20BOOK%20ON%20JQUERY.md)
+
 # CHAPTER 8 EMPLOYING AJAX
 ## Loading content
 ## Loading spans
