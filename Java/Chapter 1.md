@@ -29,18 +29,18 @@ Abraham Lincoln:
 
 ## <a id="Ch01_01">INTRODUCE THE JAVA PROGRAMMING LANGUAGE</a> ##
 
-**What is a computer?**<br>
+**What is a computer?**  
 A computer is composed of _<a id="01">hardware</a>_ and _<a id="02">software</a>_. The hardware is some physical and 
 tangible pieces that support computing power. The software consists of programs and the 
 data those programs use. A _<a id="03">program</a>_ is a series of instructions that the hardware executes
 one after the other. Programs are sometimes called _<a id="04">applications</a>_.
 
-**What is a programming language?**<br>
+**What is a programming language?**  
 A programming language specifies the words and symbols that we can use to write a program.
 A programming language employs a set of rules that dictate how the words and symbols can be
 put together to form valid _<a id="05">program statements</a>_. 
 
-**The Java programming language**<br>
+**The Java programming language**  
 The Java programming language was created by Sun Microsystems, Inc. It was introduced in 1995 
 and its popularity grew quickly.
 
@@ -82,7 +82,7 @@ works. Java comments come in three forms:
 /** this is a javadoc comment */
 ```
 
-**Identifiers**<br>
+**Identifiers**  
 
 * The words a programmer uses in a program are called _<a id="14">identifiers</a>_
 * An identifier can be made up of letters, digits, the underscore character (\_)
@@ -115,23 +115,23 @@ class        | finally     | native      | super       | while
 const*       | float       | new         | switch      | 
 continue     | for         | null        | synchronized|
 
-**White space**<br>
+**White space**  
 
 * Spaces, blank lines, and tabs are called _<a id="19">white space</a>_
 * White space is used to separate words and symbols in a program
 * Extra white space is ignored
 
-**Program formatting**<br>
+**Program formatting**  
 A valid Java program can be formatted many ways. At any rate, programs should
 be formatted to enhance readability (e.g. using consistent indentation).
 
 ## <a id="Ch01_02">PROGRAM COMPILATION AND EXECUTION</a> ##
 
-**Basic programming steps**<br>
+**Basic programming steps**  
 A program is written in an editor, compiled into an executable form, and then executed.
 If errors occur during compilation, an executable form is not created.
 
-**What is the mechanics of developing a program?**<br>
+**What is the mechanics of developing a program?**  
 This involves several activities:
 
   * writing the program in a specific programming language (such as Java)
@@ -140,7 +140,7 @@ This involves several activities:
 
 Software tools can be used to help with all parts of this process.
 
-**Language levels**<br>
+**Language levels**  
 There are four programming language levels:
 
 * machine language (e.g. for x86 processors)
@@ -154,7 +154,7 @@ to make it easier for a human being to read and write programs
 A high-level expression and its lower level equivalents
 ![image1_1](images/LanguageLevels.JPG)
 
-**Compilation and Java's approach**<br>
+**Compilation and Java's approach**  
 A compiler is a software tool which translates _<a id="21">source code</a>_ into a specific target
 language. Often, that target language is the machine language for a particular CPU 
 type. However, Java compiler is somewhat different.
@@ -166,7 +166,7 @@ not tied to any particular machine/CPU. Java is considered to be _<a id="24">arc
 
 ![image1_2](images/JavaTranslation.JPG)
 
-**Environments for program development**<br>
+**Environments for program development**  
 A _<a id="25">development environment</a>_ is the set of tools used to create, test, and modify a 
 program. And an _<a id="26">integrated development environment</a>_ (IDE) combine these tools into
 one software program. All Java IDEs contain key tools such as a compiler and interpreter.
@@ -183,14 +183,14 @@ There are many IDEs that support the development of Java software, including:
 Though the details of these IDEs differ, the basic compilation and execution process is
 essentially the same.
 
-**Syntax and semantics of a program**<br>
+**Syntax and semantics of a program**  
 The _<a id="28">syntax</a>_ defines how identifiers, reserved words, and symbols can be 
 put together to make a valid program. The _<a id="29">semantics</a>_ of a program statement defines 
 what that statement means (i.e. its purpose or role in a program). A program that is
 syntactically correct is not necessarily semantically/logically correct. A program will
 always do what we tell it to do, not what we `meant` to tell it to do.
 
-**Errors that can occur in a program**<br>
+**Errors that can occur in a program**  
 There are three types of errors:
 
 * _<a id="30">compile-time errors</a>_ - The compiler will find syntax errors and other basic problems
@@ -201,7 +201,7 @@ perhaps, an incorrect formula.
 
 ## <a id="Ch01_03">PROBLEM SOLVING IN GENERAL</a> ##
 
-**Problem solving process**<br>
+**Problem solving process**  
 The purpose of writing a program is to solve a problem.
  
 Solving a problem consists of several activities:
@@ -214,7 +214,7 @@ Solving a problem consists of several activities:
 
 These activities are not linear – they may overlap and interact.
 
-**How to design a solution**<br>
+**How to design a solution**  
 The key to designing a solution is breaking it down into manageable pieces. Such separate
 pieces are responsible for certain parts of the solution. An _<a id="33">object-oriented approach</a>_
 is suitable for this kind of solution decomposition. Under this approach, our solutions are
@@ -222,7 +222,7 @@ dissected into pieces called objects and classes.
 
 ## <a id="Ch01_04">THE SOFTWARE DEVELOPMENT PROCESS</a> ##
 
-**Basic development activities**<br>
+**Basic development activities**  
 Any proper software development effort consists of four basic _<a id="34">development activities</a>_:
 
 - establishing the requirements (i.e. listing the requirements and then describing them in detail)
@@ -241,24 +241,24 @@ constraints under which it must perform 測試
 
 ## <a id="Ch01_05">OVERVIEW OF OBJECT-ORIENTED PRINCIPLES</a> ##
 
-**Object-oriented programming**<br>
+**Object-oriented programming**  
 Java is an _<a id="40">object-oriented</a>_ programming language. An object is a fundamental entity
 in a Java program. Objects can be used effectively to represent real-world entities.
 For instance, an object might represent a particular employee in a company. Each
 employee object handles the processing and data management related to that employee.
 
-**Objects**<br>
+**Objects**  
 An _<a id="41">object</a>_ has _<a id="42">state</a>_ (descriptive characteristics) and _<a id="43">behaviours</a>_ (what it can do).
 For instance, the state of a bank account includes its account number and its current
 balance; the behaviours associated with a bank account include the ability to make
 deposits and withdrawals. Note that the behaviour of an object might change its state.
 
-**Classes**<br>
+**Classes**  
 An object is defined by a _<a id="44">class</a>_, i.e. a class is the blueprint of an object. The class
 uses methods to define the behaviours of the object. The class that contains the main
 method of a Java program represents the entire program. 
 
-**Classes and objects**<br>
+**Classes and objects**  
 A class represents a concept, and an object represents the embodiment of that concept.
 Multiple objects can be created from the same class.
 
