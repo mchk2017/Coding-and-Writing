@@ -5,7 +5,7 @@
 
 # CHAPTER 1 INTRODUCTION
 
-## KEYWORDS ##
+### KEYWORDS ###
 
 [hardware](#01) | [software](#02) | [program](#03) | [applications](#04) | [program statements](#05) |
 [classes](#06) | [methods](#07) | [statements](#08) | [class header](#09) | [class body](#10) |
